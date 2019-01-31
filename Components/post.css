@@ -1,0 +1,84 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #fafafa;
+}
+
+#post {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 80px 180px;
+	padding: 0 20px;
+	border-top: 1px solid #DDD;
+}
+
+#post .menu {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#post .menu .post-link {
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 15px 5px;
+}
+
+#post .menu .active {
+	border-top: 1px solid #000;
+}
+
+#post .row {
+	padding: 5px 20px;
+	display: flex;
+}
+
+#post .row .love {
+	background-image: url('./img/love.jpg');
+	background-size: cover;
+	background-size: center;
+	width: 293px;
+	height: 293px;
+	margin-right: 20px;
+}
+
+#post .row .me {
+	background-image: url('./img/me.jpg');
+	background-size: cover;
+	background-size: center;
+	width: 293px;
+	height: 293px;
+	margin-right: 20px;
+}
+
+#post .row .family {
+	background-image: url('./img/family.jpg');
+	background-size: cover;
+	background-size: center;
+	width: 293px;
+	height: 293px;
+	margin-right: 20px;
+}
+
+#post .row .img .overlay {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+
+#post .row .img:hover .overlay {
+	background-color: rgba(0, 0, 0, 0.3);
+	opacity: 1;
+	transition: all 300ms;
+}
+
+#post .row .img .overlay .far {
+	margin: 30px;
+	font-size: 25px;
+	color: #fff;
+}
