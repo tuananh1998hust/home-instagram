@@ -1,0 +1,54 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#navbar {
+	padding: 27px 180px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #DDD;
+	font-family: Arial, sans-serif;
+	background-color: #fafafa;
+}
+
+#navbar .home a {
+	color: #000;
+	text-decoration: none;
+}
+
+#navbar .home .logo {
+	font-size: 24px;
+	padding-right: 14px;
+	border-right: 1px solid #000;
+}
+
+#navbar .home .ins {
+	font-size: 28px;
+	font-family: 'Indie Flower', cursive;
+	padding-left: 14px;
+}
+
+#navbar .ip-group {
+	position: relative;
+	border-radius: 3px solid #ddd;
+}
+
+#navbar .ip-group .search {
+	padding: 5px;
+}
+
+#navbar .ip-group .icon {
+	color: #ccc;
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+#navbar .link-group .far {
+	color: #000;
+	font-size: 24px;
+	padding-right: 20px;
+	font-weight: 300;
+}
